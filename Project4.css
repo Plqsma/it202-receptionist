@@ -1,0 +1,117 @@
+
+body {
+  background-image: url('scope.jpg');
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  background-color: #ADD8E6;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 8px;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+select {
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 2px solid #000;
+  border-radius: 4px;
+}
+.navbar {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  padding: 10px 0;
+}
+
+.navbar button {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+
+input[type="password"],
+select {
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 2px solid #000;
+  border-radius: 4px;
+}
+
+.btnsubmit {
+  padding: 10px 5px;
+  background-color: #00f;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+    margin-top: 5px;
+}
+
+.reset {
+  padding: 10px 5px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+    margin-top: 5px;
+}
+
+.container {
+        background-color: #ADD8E6;
+        max-width: 400px;
+        margin: 100px auto;
+        display: center;
+        padding: 20px;
+        border-radius: 8px;
+        color: #333;
+        text-align: center;
+}
+table {
+    width: "50%";
+    margin: 0 auto;
+  }
+
+  table th {
+    background-color: #0074d9; 
+  color: white;
+  padding: 8px;
+  }
+
+  table td {
+    background-color:D2E3C8;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center; 
+  }
+
+h1 {
+    color: #333;
+}
